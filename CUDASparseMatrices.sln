@@ -5,6 +5,11 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaCrsMatrix", "CudaCrsMatrix\CudaCrsMatrix.vcxproj", "{CFFCA4B5-3850-05FA-5E99-415C06AC9DF9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{50E4480E-316F-C5F6-131B-DDDC92AB14F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFFCA4B5-3850-05FA-5E99-415C06AC9DF9} = {CFFCA4B5-3850-05FA-5E99-415C06AC9DF9}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +20,10 @@ Global
 		{CFFCA4B5-3850-05FA-5E99-415C06AC9DF9}.Debug|x64.Build.0 = Debug|x64
 		{CFFCA4B5-3850-05FA-5E99-415C06AC9DF9}.Release|x64.ActiveCfg = Release|x64
 		{CFFCA4B5-3850-05FA-5E99-415C06AC9DF9}.Release|x64.Build.0 = Release|x64
+		{50E4480E-316F-C5F6-131B-DDDC92AB14F8}.Debug|x64.ActiveCfg = Debug|x64
+		{50E4480E-316F-C5F6-131B-DDDC92AB14F8}.Debug|x64.Build.0 = Debug|x64
+		{50E4480E-316F-C5F6-131B-DDDC92AB14F8}.Release|x64.ActiveCfg = Release|x64
+		{50E4480E-316F-C5F6-131B-DDDC92AB14F8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
